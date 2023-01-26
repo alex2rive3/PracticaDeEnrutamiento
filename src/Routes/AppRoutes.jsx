@@ -12,7 +12,7 @@ const AppRoutes = () => {
                 <Route path="/home" element={<Home />} />
                 <Route path=":parameter" element={<OneParameter />} />
                 <Route
-                    path=":parameter/:bgColor/:color"
+                    path=":parameter/:color/:bgColor"
                     element={<VariousParameters />}
                 />
             </Routes>
